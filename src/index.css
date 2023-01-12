@@ -1,89 +1,89 @@
 nav {
-    background-color: #F55A5A;
-    display: flex;
-    color: #FFFFFF;
-    padding: 15px;
-    justify-content: center;
+  background-color: #f55a5a;
+  display: flex;
+  color: #ffffff;
+  padding: 15px;
+  justify-content: center;
 }
 
 .nav--logo {
-    width: 40px;
-    height: 40px;
-    align-self: center;
+  width: 40px;
+  height: 40px;
+  align-self: center;
 }
 
 .nav--title {
-    font-family: 'inter', sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    padding-left: 10px;
-    padding-top: 5px;
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 .location--photo {
-    flex: 30%;
-    width: 300px;
-    height: 370px;  
-    margin-right: 70px;
-    border-radius: 10px;
-}    
-
+  flex: 30%;
+  width: 300px;
+  height: 370px;
+  margin-right: 70px;
+  border-radius: 10px;
+}
 
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 70px 90px;
-    font-family: 'inter', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px 90px;
+  font-family: "inter", sans-serif;
 }
 
 .card--stats {
-    display: flex;
-    flex: 50%;
-    flex-direction: column;
-    padding-top: 50px;
-    
-    padding-right: 20px;
-    line-height: 150%;
-    color: #2B283A;
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  padding-top: 50px;
+
+  padding-right: 20px;
+  line-height: 150%;
+  color: #2b283a;
 }
 
 .first-line {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .location--icon {
-    width: 14px;
-    height: 18px;
-    padding-right: 5px;
+  width: 14px;
+  height: 18px;
+  padding-right: 5px;
 }
 
 .country--name {
-    letter-spacing: 0.17em;
+  letter-spacing: 0.17em;
 }
 
 .location--name {
-    font-weight: 700;
-    font-size: 50px;
-    color: #2B283A;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    line-height: 100%;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2b283a;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  line-height: 100%;
 }
 
 .map--link {
-    padding-left: 30px;
-    color: #918E9B;
+  padding-left: 30px;
+  color: #918e9b;
 }
 
 .travel--date {
-    font-weight: 700;
-    padding-bottom: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
 }
 
-@media (max-width: 800px) {
-    .location--photo, .card--stats {
-        flex: 100%;
-        max-width: 100%;
-    }
+@media (max-width: 600px) {
+  .location--photo,
+  .card--stats {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
