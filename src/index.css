@@ -1,13 +1,89 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+nav {
+    background-color: #F55A5A;
+    display: flex;
+    color: #FFFFFF;
+    padding: 15px;
+    justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav--logo {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+.nav--title {
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.location--photo {
+    flex: 30%;
+    width: 300px;
+    height: 370px;  
+    margin-right: 70px;
+    border-radius: 10px;
+}    
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 90px;
+    font-family: 'inter', sans-serif;
+}
+
+.card--stats {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    padding-top: 50px;
+    
+    padding-right: 20px;
+    line-height: 150%;
+    color: #2B283A;
+}
+
+.first-line {
+    display: flex;
+    align-items: center;
+}
+
+.location--icon {
+    width: 14px;
+    height: 18px;
+    padding-right: 5px;
+}
+
+.country--name {
+    letter-spacing: 0.17em;
+}
+
+.location--name {
+    font-weight: 700;
+    font-size: 50px;
+    color: #2B283A;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    line-height: 100%;
+}
+
+.map--link {
+    padding-left: 30px;
+    color: #918E9B;
+}
+
+.travel--date {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .location--photo, .card--stats {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
