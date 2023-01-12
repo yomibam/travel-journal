@@ -17,7 +17,7 @@ export default function Card(props) {
           />
           <span className="country--name">{props.location}</span>
           <a href={`${props.map}`} className="map--link">
-            View on Google Maps
+            Vi on Google Maps
           </a>
         </div>
 
