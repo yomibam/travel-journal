@@ -17,13 +17,13 @@ export default function Card(props) {
           />
           <span className="country--name">{props.location}</span>
           <a href={`${props.map}`} className="map--link">
-            Vi on Google Maps
+            View on Google Maps
           </a>
         </div>
 
         <span className="location--name">{props.title}</span>
         <span className="travel--date">{`${props.startDate} - ${props.endDate}`}</span>
-        <span>{props.description}</span>
+        <span className="country--description">{props.description}</span>
       </div>
     </div>
   );
